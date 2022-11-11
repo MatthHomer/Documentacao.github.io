@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/css/uikit.min.css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.8/dist/js/uikit-icons.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    
+    <title>Documentação A3M</title>
+
+</head>
+<link rel="shortcut icon" href="DocumentacaoA3M.github.io-main\Imagens A3M\favicon.ico" type="image/x-icon" />
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="DocumentacaoA3M.github.io-main\Imagens A3M\Imagens Index\favicon-9-150x150.png" class="Favicon"></img>
+        <div class="logo_name">Documentação A3M</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Buscar...">
+         <span class="tooltip">Buscar</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+         <span class="tooltip">Análises</span>
+      </li>
+      <li>
+       <a href="#">
+         <i class='bx bx-user' ></i>
+         <span class="links_name">Usuário</span>
+       </a>
+       <span class="tooltip">Usuário</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-chat' ></i>
+         <span class="links_name">Tópicos</span>
+       </a>
+       <span class="tooltip">Tópicos</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">Análises</span>
+       </a>
+       <span class="tooltip">Análises</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">Documentos</span>
+       </a>
+       <span class="tooltip">Documentos</span>
+     </li>
+<!--      <li>
+       <a href="#">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Order</span>
+       </a>
+       <span class="tooltip">Order</span>
+     </li> -->
+     <li>
+       <a href="#">
+         <i class='bx bx-heart' ></i>
+         <span class="links_name">Salvo</span>
+       </a>
+       <span class="tooltip">Salvo</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Configuração</span>
+       </a>
+       <span class="tooltip">Configuração</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <!--<img src="profile.jpg" alt="profileImg">-->
+           <div class="name_job">
+             <div class="name">Math Henrique da Silva</div>
+             <div class="job">Analista de Dados</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+
+    <nav class="uk-navbar uk-navbar-container uk-navbar-center Topbar-Titulo" uk-sticky>
+        <h2> 
+            Manual de Usuário do A3M System 
+        </h2>
+    </nav> 
+
+<section class="home-section">
+        <b> Última Atualização: 30/07/2022 </b> 
+
+        <h1>USUÁRIOS E GRUPOS DE PERMISSÕES</h1>
+            <div>
+                    <p> Para autorizar os colaboradores a utilizarem o sistema de BI da Analítica3M, o processo, contempla 2 etapas: </p>
+                        <ul> 1) a configuração das permissões; e </ul>
+                        <ul> 2) a configuração dos usuários. </ul>
+                    <p>Estes campos são acessíveis através do menu <strong> Configuração > Usuários. </strong> </p> 
+                    <div class="Cadastro Permissões">
+                        <div class="Cadastro Permissões">
+                            <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Cadastro de Permissões.png"> </img>
+                        </div>
+                    </div>
+            </div>
+  
+    <div>
+            <h2>
+                CONFIGURAÇÕES DE PERMISSÕES 
+            </h2>
+            <p>
+                Através do Gerenciador de Permissões, elaboramos os grupos de permissões que servirão para liberar as telas ao usuário.
+            </p>
+            <h2>
+                CRIANDO UM GRUPO DE PERMISSÃO
+            </h2>
+    </div>
+        <p>
+            Ao clicar no <span class="fa fa-plus-circle" style="font-size:30px; color:#000e4a;"::before></span> ao final da tela, você conseguirá criar um Novo Grupo. Neste primeiro momento só é necessário Colocar o Nome do Grupo e clicar em Cadastrar.
+        </p>    
+      
+        <img src = "./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Cadastro permissao.png" class = "Imagens" > </img>
+  
+    <div>
+        <p>
+            Após criar o grupo, basta acessá-lo para configurar as telas que este grupo poderá ter acesso. Na imagem de exemplo, a criação do Grupo de Permissão Atendimento no qual estão sendo selecionadas as telas de Atendimento:
+        </p>
+
+        <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Premissões Seleção.png">
+
+    </div>
+  
+  <div>
+        <h3 id="EditarPermissao">
+          EDITANDO UM GRUPO DE PERMISSÃO
+        </h3>
+        <p>
+            Caso você tenha criado um <b> Grupo de Permissões </b> e deseje alterar o nome, basta selecionar o grupo e clicar em: 
+            <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Alterar Descrição.png" class = "Permissão"> </img>
+            <br>
+                Caso queira adicionar permissões de tela a um grupo, basta acessá-lo e selecionar as telas que deseja adicionar ou remover do grupo de permissões. 
+            </br> 
+        </p>
+  </div>
+  
+    <div class="Novo Usuário">
+        <h2 id="ConfiguracaoUsuario">
+            Configuração dos usuários do A3M System
+        </h2>
+            <p>
+              Com os grupos de permissão criados, fica mais fácil de criar um usuário e já atribuir as permissões que este poderá ter de telas do BI.
+            </p>
+  
+        <div class = "User"> 
+                <h3 id="CriandoNovoUsuario">
+                    CRIANDO UM NOVO USUÁRIO
+                </h3>
+                <div>
+                    Todos os campos são obrigatórios: 
+                    <br class="Campos-Obrigatorios"> Nome, Usuário, Grupo (pelo menos um), E-mail e senha. </br> 
+                    Neste primeiro momento, caso o usuário tenha mais de um grupo de permissão, basta adicionar um deles. Com os dados inseridos, basta clicar em Cadastrar.
+                </div>                       
+                <p>
+                    <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Novo Usuário.png"/>
+                </p>
+        </div>  
+    </div>
+  
+    <div>
+          <h3 id="MaisdeUmGrupo">
+              ADICIONANDO MAIS DE UM GRUPO DE PERMISSÃO
+          </h3>
+                <p>
+                    Para adicionar mais de um Grupo de Permissão ao usuário, você precisa então acessar o respectivo usuário e no campo Outros Grupos adicionar todos Grupos de Permissão que ele poderá ter acesso. 
+                </p>
+          <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Mais de um grupo de permissões.png"></img>
+  
+
+            <h3>
+                EDITANDO UM USUÁRIO
+            </h3>   
+              Ao Editar um usuário, você ainda poderá desativar ele, através do botão "Alterar Senha", caso <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Ativo S.png"> necessário, ou <img src = "./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Alterar senha.png"> ainda, Excluir.
+              <br> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Excluir.png"> </br> 
+          <p>
+              <h3>
+                  EDITANDO O SEU USUÁRIO
+              </h3>
+          <p>
+              Com a tela logada, no canto superior direito, você irá conseguir alterar sua foto e também alterar a sua Senha.
+          <p>
+              <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Alterar Senha Própria.png">
+          </p>
+
+          <div>
+              <h2 class="Video">VIDEO | CADASTRO DE USUÁRIOS</h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/GmDjUUBDo0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    </div>
+
+  <div>
+      <h2 >
+          CONTROLE DE FUNCIONÁRIOS - MENU RH
+      </h2>
+          <p >
+              O sistema de Controle de Funcionários - RH da A3M System é de fácil acesso e muito intuitivo. 
+              O Painel de cadastros para o RH é composto por duas seções principais:
+              <div>
+                  <li>
+                      a RH (que é composta pelos menus "Funcionários" e "Férias e Folgas"); e 
+                  </li>
+
+                  <li id="RhCadastros">
+                      a RH - Cadastros (que é composta pelos campos de cadastro prévio ao cadastro dos Funcionários). 
+                  </li>
+
+              </div>
+              <p>Além destas duas principais, é importante dar uma atenção para a seção Cadastro de Endereço. Mas primeiro, vamos tratar da parte de RH - Cadastros.</p>
+          
+          <p>
+              <h2 id="RHCadastros">
+                  RH CADASTROS
+              </h2>
+                  <p> Para acessar, basta clicar no menu Configuração > RH - Cadastros > o menu que quiser configurar </p>
+                    <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/RH - CADASTROS.png">
+                  <p>
+                      Nesta parte do sistema você poderá configurar tudo que deverá estar previsto dentro do
+                      sistema na hora de cadastrar um novo funcionário, ou seja, todas as possibilidades de cargos,
+                      setores, motivos de desligamento, empresas, escolaridade, tipo de vínculo e diretoria a qual o
+                      funcionário pertence. 
+                  </p>
+                  <p>
+                      Adicionando opções em qualquer um dos campos do RH - Cadastros 
+                  </p>
+  
+                  <p>
+                      Para adicionar alguma opção em qualquer um dos campos, basta clicar no ícone de <span class="fa fa-plus-circle" style="font-size:30px; color:#000e4a;"::before></span> no canto inferior direito da página. 
+                  </p>
+          </p>
+  </div>
+  
+  <div>
+      <h3 id="RhCadEditExc"> 
+          CADASTRANDO, EDITANDO OU EXCLUINDO OPÇÕES
+      </h3>
+              <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/CADASTRANDO, EDITANDO OU EXCLUINDO OPÇÕES.png"> </img>
+                  <p>
+                      Cadastro de Cargos solicita apenas a descrição do cargo e alguma observação adicional que você queira contemplar. Para inativar algum Cargo, basta clicar no cargo criado e ele irá exibir um botão que estará marcado como ativo. basta clicar em cima para desativar, e para finalizar, clicar em Editar:
+                  </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Ativo S.png"> </img>
+                  <p>
+                      Caso o cargo tenha sido criado de forma errada, também é possível excluí-lo.
+                  </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Excluir.png"> </img>
+                  <p>
+                      Estes caminhos de Criação, Edição e Remoção servem para todos os submenus do RH 
+                      <ul> - Cadastros. </ul>
+                  </p>
+              <h3 id="CadastroEndereço">
+                  CADASTRO DE ENDEREÇO
+              </h3>
+              <p>
+                  Após realizar os cadastros mínimos para a vinculação com um funcionário, é importanteatentar para um local: Cadastro de Endereço.
+              </p>
+                  <div>
+                      <li>
+                          Esta seção é importante no caso de a empresa/funcionário terem residência em um CEP que seja único para a cidade. Quando o município não tem CEP por logradouro, o CEP dito genérico (seguido do número -000) é usado, por exemplo: Capão da Canoa, Rio Grande do Sul, tem o CEP 95555-000.
+                      </li>
+                  </div>
+              <p>
+                  Desta forma será necessário cadastrar um endereço previamente com as seguintes informações: CEP, UF, Cidade, Bairro e Logradouro (apenas o nome, pois o número do endereço será preenchido diretamente na criação do funcionário).
+              </p>
+              
+              <div id="vdCadastroEndereco">
+                 <h2>Vídeo | Cadastro de Endereço</h2> 
+                 <iframe width="680" height="390" src="https://youtu.be/embed/w57dd-30qO8" title="Cadastro de Endereço" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+  </div>
+
+<div id= "RhImagens"> 
+  <div>
+      <h2>
+          RH CONFIGURAÇÕES
+      </h2>
+  
+      <p>
+          O menu RH é composto por duas seções: a seção Funcionários e a seção Férias e Folgas
+      </p>
+      <h3 id="Funcionarios">
+          FUNCIONÁRIOS
+      </h3>
+      
+      O cadastro de funcionários tem campos obrigatórios a serem preenchidos. Estes campos estão sinalizados por um *. Ao cadastrar um Novo Funcionário, serão 3 partes a serem preenchidas:
+  
+      <p>
+          <u id="DadosPessoais">
+              DADOS PESSOAIS
+          </u>
+      </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Funcionarios.png" id="DadosPessoaisIMG" style="max-height: 400px;" ></img>
+  
+      <p>
+          <u id="EnderecoRH">
+              ENDEREÇO
+          </u> 
+          
+          <p"> 
+              Este é o momento em que será importante ter cadastrado o Endereço prévio (em caso de CEP genérico):
+          </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Endereço.png"> </img>
+  
+          <p>
+              <u id="Atribuicao">
+                  ATRIBUIÇÃO
+              </u>
+             <p>
+                  A terceira página de informações é a parte que solicita as informações de Setor, Cargo, Vínculo, Base Horas, Empresa e a Diretoria da qual o funcionário está alocado (caso a empresa tenha essa divisão). Na sequência, você precisará colocar Admissão, Term. Experiência 1 e 2, e o Salário do funcionário. Caso seja um cliente já desligado, podes marcar a opção, cadastrar a data de desligamento e incluir o Motivo de Desligamento.
+              </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Atribuições.png" alt="">
+          </p>
+  
+              <p>
+                  <h3 id="FeriasFolgas">
+                      FÉRIAS E FOLGAS
+                  </h3>
+  
+                 <p>
+                      A seção de Férias e Folgas permite a alocação de Férias, Folgas e a criação de Reserva de Férias.
+                  </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Atribuições.png" alt="">
+                  
+                  <p> 
+                      <u id="Ferias">
+                          FÉRIAS
+                      </u>
+                  </p>
+  
+                  <p>
+                      Para adicionar novas Férias, basta selecionar o Funcionário, marcar na opção Tipo: “Férias”, colocar a data de início e término e, caso desejar, uma observação.
+                  </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Adc novo.png" alt="">
+                  <p>
+                      <u id="Folgas">
+                          FOLGAS
+                      </u>
+                  </p>
+                  <p>
+                      O cadastro de Folgas funciona do mesmo jeito que o Cadastro de Férias.
+                  </p>
+                  <p>
+                      <u id="ReservaFerias">
+                          RESERVA DE FÉRIAS
+                      </u>
+                      <p>
+                          A seção de Reserva de Férias serve para que cada funcionário possa escolher dentre as possibilidades/períodos disponíveis. A criação de um período de férias é simples, basta selecionar o setor e confirmar o período que este setor poderá tirar férias.
+                      </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Nova Reserva.png" alt="">
+                      <p>
+                          Após a criação do período de reserva de férias, você poderá acessar a reserva e alocar os interessados naquele período selecionado. Após a definição de quem irá tirar as férias naquele período, basta marcar no campo funcionário quem será selecionado e o período de reserva de férias irá sumir, sendo então criado no campo Férias as Férias do funcionário.
+                      </p> <img src="./DocumentacaoA3M.github.io-main/Imagens A3M/Imagens Index/Realizar Alteração func.png" alt="">
+                  </p>
+              </p>
+          </p>
+      </p>
+  </div>
+</div>
+  
+<div>
+  
+  Pronto!
+  
+  <p>
+      Você chegou ao fim do Manual de utilização do A3M System.
+  </p> 
+      
+  <p>
+      Qualquer dúvida, favor contatar o seu Analista.
+  </p> 
+  
+</div>
+  
+</section>
+</body>
+
+<script src="./Index.js"></script>  
+
+</html>
